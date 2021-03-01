@@ -1,6 +1,6 @@
 # Pair Programming Challenge: GitHub Edition! :octocat:
 
-For this challenge, we'll work through a small pair programming exercise together while using basic git commands to save out work
+For this challenge, we'll work through a small pair programming exercise together while using basic git commands to save our work
 
 # The Challenge
 
