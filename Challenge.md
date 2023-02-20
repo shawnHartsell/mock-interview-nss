@@ -3,9 +3,9 @@
 For this exercise, we'll work together to list GitHub repositories for a user. In the interest of time we will the against mock API endpoints
 
 
-**Users API**: https://run.mocky.io/v3/59e8fa9a-b488-4ab7-9fd6-cf6002aa0126?user_id=:id
+**Get a User by id**: https://run.mocky.io/v3/59e8fa9a-b488-4ab7-9fd6-cf6002aa0126?user_id=:id
 
-**Repositories API**: https://run.mocky.io/v3/1aed64d8-96dc-4949-abb3-1134cb1e024a?user_name:user_name
+**List repositories for a user**: https://run.mocky.io/v3/1aed64d8-96dc-4949-abb3-1134cb1e024a?user_name:user_name
 
 ## Goals
 
