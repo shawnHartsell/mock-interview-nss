@@ -1,24 +1,18 @@
 # Pair Programming Exercise
 
-For this exercise, we'll work together to create our own implementation of a queue of integers. As per Wikipedia, a queue is:
-
-> a collection of entities that are maintained in a sequence and can be modified by the addition of entities at one end of the sequence and the removal of entities from the other end of the sequence
-
-![lal](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/300px-Data_Queue.svg.png)
+For this exercise, we'll work together to list GitHub repositories for a user. In the interest of time we will the against mock API endpoints
 
 
-Queues typically provide the following functions 3 function(s). For our purposes, we will create a queue for integers
-
-- *Enqueue(n int)* = add an integer to the back of the queue
-- *Dequeue(n int): int* = removes the first integer from the queue and returns it
-- *Peek(n int): int* = returns the integer at the front of the queue without removing it
+**User API**: https://run.mocky.io/v3/59e8fa9a-b488-4ab7-9fd6-cf6002aa0126?user_id=:id
+**Repositories API": https://run.mocky.io/v3/1aed64d8-96dc-4949-abb3-1134cb1e024a?user_name:user_name
 
 ## Goals
 
-1. Create a data structure for the three functions above (hint: think class, interfaces, object literals, etc)
-2. Implement the 3 functions
-3. Create an instance of the queue, enqueue a list of integers
-4. Dequeue the elements until the queue is empty, printing each item as we go along
+1. Implement function that takes a `user_id` as an argument. Retreive user details using the Users API
+2. Using the response from the Users API, retrieve the list of repositories using the Repositories API
+3. Print the list of repositories
+4. (Bonus 1) Print the list of public repositories for the user
+5. (Bonus 2) Write the list of public repositories to a file called `repos.txt`
 
-You are free to use whatever language you'd like as well as documentation. The only requirement is to not use a built-in queue in your preferred language!
+You are free to use whatever tools, language, and documentation you'd like 🚀
 
