@@ -2,7 +2,7 @@
 
 ## Goal:
 
-Given a list of Pokemon in `pokemon.json` and the `https://pokeapi.co/api/v2/` API write a program
+Given a list of Pokemon in `pokemon.json` and the `https://pokeapi.co/api/v2/pokemon` API write a program
 that calculates the following:
 
 1. Who is the tallest Pokemon?
